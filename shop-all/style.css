@@ -1,0 +1,650 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.glossier a{
+    color: #000;
+}
+.top_information{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    padding: 10px 0px;
+    background-color: rgb(238, 192, 200);
+}
+.images_search img{
+    width: 30px;
+    height: 30px;
+}
+nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: auto;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 20px;
+    z-index: 1000px;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 0px 0px 0px;
+}
+
+.Add_to_cart{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+.cart{
+    display: none;
+    top: 0px;
+    position: absolute;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid grey;
+    margin-left: 795px;
+    background-color: #f4f4f4;
+    /* transition: .3s; */
+}
+.save_on{
+    width: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.save_on img{
+    width: 60px;
+    height: 70px;
+}
+.cart_top_bar{
+    /* width: 95%;
+    margin: auto; */
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 5px;
+}
+.body1{
+    margin-top: 20px;
+    background-color: #dee9ee;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.body1 .p1{
+    font-size: 14px;
+    font-weight: 600;
+}
+.body1 .p2{
+    font-size: 12px;
+    color: #636363;
+}
+.body2{
+    margin-top: 20px;
+}
+.body2 .p4{
+    font-size: 14px;
+}
+.body1 a{
+    color: #000;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.body3_text{
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Apercu Pro", sans-serif;
+    width: 95%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px 10px 10px 0px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.body3_text .text11{
+    padding-right: 110px;
+}
+.body3_img img{
+    width: 100px;
+    height: 100px;
+}
+.body3_small_img {
+    padding: 5px 10px 0px 0px;
+    align-items: center;
+}
+.body3_small_img p{
+    padding-left: 5px;
+}
+.body3_small_img img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.btn121{
+    border:1px solid;
+    width: 70px;
+    padding: 5px 10px;
+}
+.remov{
+    align-items: center;
+    margin-top: 20px;
+}
+.btn121 .p1{
+    padding-right: 10px;
+}
+.remove a{
+    color: #000;
+    font-size: 12px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+progress{
+    width: 100%;
+    color: #000;
+}
+.bag{
+    align-items: center;
+    font-family: "Apercu pro";
+}
+.your_bag{
+    font-weight: normal;
+    font-size: 12px;
+}
+.cancel{
+    font-weight: bold;
+    padding-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.cart_top_bar a{
+    font-size: 30px;
+}
+.glossier p{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 700;
+    font-style: italic;
+}
+.sub_nav a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.sub_nav{
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sub_nav .subNavlist>li{
+    list-style-type: none;
+    display: flex;
+    padding-right: 10px;
+}
+.sub_nav, .subNavlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown img{
+    width: 100px;
+}
+.solve{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    color: #7d8382;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flexx{
+    display: flex;
+}
+.answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 700;
+}
+.solve a{
+    text-decoration: none;
+    color: #000;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+}
+.answer a{
+    color: #000;
+}
+.navigation{
+    position: sticky;
+    padding-bottom: 5px;
+    border-bottom:1px solid #7d8382;
+    top: 0;
+    background-color: #fff;
+    padding-top: 10px;
+}
+ .dropDownMenu{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    margin-top: 100px;
+    padding: 20px;
+    top: 0;
+    border-top:1px solid #000;
+    background-color: #fff;
+}
+.dropDownMenuHolder{
+    display: none;
+}
+.shopAll:hover .dropDownMenuHolder{
+    display: flex;
+    transition: .3s;
+}
+footer{
+    background-color: #000;
+}
+footer select{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border: none;
+}
+.holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+.footerimg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.footerimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.footer_img{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: "Apercu Pro", sans-serif;
+    font-size: 25px;
+}
+.footer_img a{
+    color: #fff;
+    font-size: 12px;
+}
+.footertext{
+    padding-left: 30px;
+}
+.footerSection1{
+    color: #fff;
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.footerSection1 .sec1{
+    width: 30%;
+
+}
+.footerSection1 .sec1 h5{
+    font-family: "Apercu Pro", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.footerSection1 .sec1 p{
+    padding-bottom: 10px;
+}
+.sec1 input{
+    width: 290px;
+    height: 40px;
+    background-color: #000;
+    border:1px solid #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+.sec1 button{
+    height: 40px;
+    padding: 0px 10px;
+    background-color: #000;
+    color: #fff;
+    border:1px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sec2 ul{
+    padding: 30px;
+}
+.sec2 li{
+    padding: 7px;
+    color: #7d8382;
+    list-style-type: none;
+}
+.sec2 li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footerSection2{
+    color: #fff;
+    width: 95%;
+    margin: auto;
+}
+.footersecImg{
+    width: 40px;
+    height: 40px;
+}
+.footersecImg img{
+    width: 100%;
+    height: 100%;
+}
+.sect2{
+    flex-direction: column;
+    padding-left: 20px;
+    font-size: 14px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.sect2 a{
+    padding:  0px 30px 0px 0px;
+    color: white;
+    font-size: 12px;
+}
+.sect1a{
+    display: flex;
+    font-family: "Apercu Pro", sans-serif;
+}
+.sect3>ul>li{
+    width: 20px;
+    height: 20px;
+    list-style-type: none;
+}
+.sect3>ul{
+    display: flex;
+    color: #fff;
+}
+.sect3 svg{
+    color: #fff;
+}
+.sect3{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 95%;
+    margin: auto;
+}
+section div{
+    width: 20%;
+    height: 450px;
+}
+.shopall_text{
+    width: 95%;
+    margin: auto;
+    font-weight: 700;
+    font-family: "Apercu Pro", sans-serif;
+    font-size: 25px;
+    margin: 40px;
+}
+.sort_all{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.st{
+    color: #636363;
+    font-family: "Apercu Pro", sans-serif;
+    font-size: 12px;
+}
+.featured{
+    border: none;
+}
+.sort{
+    border: 1px solid #636363;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.sort_all{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.log1,.log2,.log3,.log4,.log5,.log6,.log7,.log8,.log9,.log10,.log11,.log12,.log13,.log14,.log15,.log16,.log17,.log18,.log19,.log20,.log21,.log2,.log23,.log24,.log25,.log26,.log27,.log28,.log29,.log30,.log31,.log32,.log33,.log34,.log35{
+    width: 23%;
+    height: 580px;
+    margin-bottom: 30px;
+}
+.fetched_data{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Shop_all_section{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.log1background{
+    background-image: url(./section1_img/Global-LS-01.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    object-fit: cover;
+}
+.log1img img{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+}
+.log1img div{
+    padding: 5px;
+}
+.log1{
+    background-color: #f4f4f4;
+}
+.log1 .text1 a{
+    color: black;
+}
+.text1{
+    margin-top: 10px;
+}
+.tx1 a{
+    font-family:"Apercu Pro", sans-serif;
+    font-size: 15px;
+    font-weight:500 ;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.tx2 a{
+    font-family:"Apercu Pro", sans-serif;
+    font-size: 10px;
+    padding-left: 10px;
+}
+.log1 .text2{
+    width: 95%;
+    margin: auto;
+    background-color: #fff;
+    height: 40px;
+    padding: 10px;
+    font-weight: 550;
+}
+.topimg{
+    display: none;
+}
+.log1:hover .topimg{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.log2background{
+    background-image: url(./section1_img/Global-LS-03.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    object-fit: cover;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+.save{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+.save p{
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 6px 9px;
+    font-size: 10px;
+    font-family:"Apercu Pro", sans-serif;
+}
+.quick{
+    display: none;
+}
+.log2:hover .quick{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #f4f4f4;
+    padding: 5px;
+    color: black;
+    font-weight: 800;
+    font-family:"Apercu Pro", sans-serif;
+}
+.log2{
+    background-color: #f4f4f4;
+}
+.log2 a{
+    color: #000;
+}
+.log2 .text2{
+    width: 95%;
+    margin: auto;
+    background-color: #fff;
+    height: 40px;
+    padding: 10px;
+    font-weight: 550;
+    margin-top: 35px;
+}
+.to_bag{
+    padding-left: 10px;
+    color: #7d8382;
+}
+.text1 a{
+    color: black;
+    text-decoration: none;
+}
+.text2{
+    width: 95%;
+    margin: auto;
+    background-color: #fff;
+    height: 40px;
+    padding: 10px;
+    font-weight: 550;
+    margin-top: 35px;
+}
+.text1:hover{
+    text-decoration:underline
+}
+.log3backgroung{
+    background-image: url(./section1_img/img3.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    object-fit: cover;
+}
+.log3{
+    background-color:#f4f4f4;
+}
+.log4img img{
+    width: 100%;
+    height: 445px;
+    object-fit: cover;
+}
+
+.log4:hover .log4background{
+    display: flex;
+    background-image: url(./section1_img/img4b.gif);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    object-fit: cover;
+}
+.log4:hover .log4img{
+    display: none;
+}
+.log4{
+    background-color:#f4f4f4;
+}
+.log5{
+    background-color:#f4f4f4;
+}
+.log5background1{
+    display: flex;
+    background-image: url(./section1_img/img5.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    object-fit: cover;
+}
+.log5:hover .log5background2{
+    display: flex;
+    background-image: url(./section1_img/img5a.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    object-fit: cover;
+}
+.log5:hover .log5background1{
+    display: none;
+}

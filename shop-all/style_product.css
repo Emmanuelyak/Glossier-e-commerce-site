@@ -1,0 +1,495 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.glossier a{
+    color: #000;
+}
+body{
+    background-color: #f4f4f4;
+}
+.top_information{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    padding: 10px 0px;
+    background-color: rgb(238, 192, 200);
+}
+.images_search img{
+    width: 30px;
+    height: 30px;
+    /* margin: 10px; */
+}
+nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: auto;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    padding-top: 10px;
+}
+.glossier p{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 700;
+    font-style: italic;
+}
+.sub_nav a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.sub_nav{
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sub_nav .subNavlist>li{
+    list-style-type: none;
+    display: flex;
+    padding-right: 10px;
+}
+.sub_nav, .subNavlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown img{
+    width: 100px;
+}
+.solve{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    color: #7d8382;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 700;
+}
+.solve a{
+    text-decoration: none;
+    color: #000;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+}
+.answer a{
+    color: #000;
+}
+.navigation{
+    position: sticky;
+    padding-bottom: 5px;
+    border-bottom:1px solid #7d8382;
+    top: 0;
+    background-color: #f4f4f4;
+    padding-top: 10px;
+}
+ .dropDownMenu{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 20px;
+    background-color: #fff;
+    height: 350px;
+}
+.dropDownMenuHolder{
+    display: none;
+}
+.shopAll:hover .dropDownMenuHolder{
+    display: flex;
+    transition: .3s;
+}
+footer{
+    background-color: #000;
+}
+footer select{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border: none;
+}
+.holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+.footerimg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.footerimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.footer_img{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: "Apercu Pro", sans-serif;
+    font-size: 25px;
+}
+.footer_img a{
+    color: #fff;
+    font-size: 12px;
+}
+.footertext{
+    padding-left: 30px;
+}
+.footerSection1{
+    color: #fff;
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.footerSection1 .sec1{
+    width: 30%;
+
+}
+.footerSection1 .sec1 h5{
+    font-family: "Apercu Pro", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.footerSection1 .sec1 p{
+    padding-bottom: 10px;
+}
+.sec1 input{
+    width: 290px;
+    height: 40px;
+    background-color: #000;
+    border:1px solid #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+.sec1 button{
+    height: 40px;
+    padding: 0px 10px;
+    background-color: #000;
+    color: #fff;
+    border:1px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sec2 ul{
+    padding: 30px;
+}
+.sec2 li{
+    padding: 7px;
+    color: #7d8382;
+    list-style-type: none;
+}
+.sec2 li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footerSection2{
+    color: #fff;
+    width: 95%;
+    margin: auto;
+}
+.footersecImg{
+    width: 40px;
+    height: 40px;
+}
+.footersecImg img{
+    width: 100%;
+    height: 100%;
+}
+.sect2{
+    flex-direction: column;
+    padding-left: 20px;
+    font-size: 14px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.sect2 a{
+    padding:  0px 30px 0px 0px;
+    color: white;
+    font-size: 12px;
+}
+.sect1a{
+    display: flex;
+    font-family: "Apercu Pro", sans-serif;
+}
+.sect3>ul>li{
+    width: 20px;
+    height: 20px;
+    list-style-type: none;
+}
+.sect3>ul{
+    display: flex;
+    color: #fff;
+}
+.sect3 svg{
+    color: #fff;
+}
+.sect3{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_discription{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.img_discpt img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.img_discpt{
+    width: 450px;
+    height: 480px;
+
+
+}
+
+.part3{
+    width: 450px;
+    height: 900px;
+    margin-left: 40px;
+}
+.name{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.select_amount{
+    width: 20%;
+    background-color:#fff;
+    color:#000;
+    padding: 15px 20px;
+    border: 1px solid #7d8382;
+    border-radius: 3px;
+}
+.add_bag{
+    width:70% ;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.add_to_cart{
+    margin-top: 95px;
+    display: flex;
+}
+.bag{
+    width: 100%;
+    height: 100%;
+    padding: 15px 0px;
+    background-color: #000;
+    color: #fff;
+    margin-left: 3px;
+}
+.add_to_bag{
+    width: 400px;
+    position: absolute;
+    background-color: #fff;
+    border:1px solid #000;
+    top: 0;
+    margin-left: 862px;
+    height: 100vh;
+
+}
+.add_to_bag_top{
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    padding: 15px 0px;
+}
+#cancel_bag{
+    padding-right: 20px;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.add_to_bag_body{
+    border-top:1px solid #7d8382;
+    background-color: #f4f4f4;
+    height: 470px;
+}
+.bag_body1{
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    margin-top: 20px;
+}
+.bag_body1a{
+    background-color: #dee9ee;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.bag_body_img{
+    width: 60px;
+    height: 80px;
+    margin-right: 10px;
+    padding: 1px 1px;
+}
+.bag_description{
+        font-size: 12px;
+        font-family: "Apercu Pro", sans-serif;
+        margin: 5px 0px;
+}
+.bag_body1a a{
+    text-decoration: underline;
+    color: #000;
+    font-size: 12px;
+}
+.arrow_right{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.bag_body2{
+    width: 90%;
+    margin: auto;
+}
+.progress{
+    width: 90%;
+    width: 100%;
+}
+.bag_body3{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff;
+    align-items: center;
+    overflow: hidden;
+}
+.overflow{
+    overflow-y: scroll;
+    height: 400px;
+}
+.bag_body3_img{
+    width: 60px;
+    height: 80px;
+    padding: 1px 1px;
+    margin-top: 5px;
+}
+.mini_bag{
+    display: flex;
+    padding: 5px 5px;
+    align-items: center;
+}
+.brown{
+    padding-left: 10px;
+    font-size: 12px;
+}
+.bag_mini{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    
+}
+.bag_body3_sub{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bag_bag{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.bag3price{
+    padding-left: 197px;
+}
+.bag_qantity{
+    padding: 5px 40px;
+}
+.remov{
+    text-decoration: underline;
+    color: #000;
+    font-size: 12px; 
+}
+.bag_body4{
+    width: 90%;
+    height: 170px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+.bag4_sub{
+    width: 100%;
+    padding: 7px;
+    font-size: 13px;
+}
+.endp{
+    width: 100%;
+    margin-top: 10px;
+}
+.endp a{
+    text-decoration: underline;
+    font-weight: 800;
+}
+.bag4_sub button{
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 0px;
+    background-color: #000;
+    color: #fff;
+
+}
+.add_to_bag{
+    display: none;
+}
+
+
